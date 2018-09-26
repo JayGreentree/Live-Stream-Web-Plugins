@@ -32,7 +32,7 @@ function getWeather() {
   }
 
   var i = 0;
-  var cities = '{"places" : [{"woeid":"1105779", "u":"c", "tz":"Australia/Sydney"},{"woeid":"2379574", "u":"f", "tz":"America/Chicago"},{"woeid":"44418", "u":"c", "tz":"Europe/London"}]}';
+var cities = '{"places" : [{"woeid":"12778311", "u":"c", "tz":"united-states/indiana/vincennesVincennes"}
   var arr = JSON.parse(cities);
 
 $(document).ready(function() { 
